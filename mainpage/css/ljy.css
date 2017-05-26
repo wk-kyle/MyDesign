@@ -1,0 +1,948 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banxin{
+    width: 1222px;
+    margin: 0 auto;
+}
+.jia{
+    width: 1330px;
+    height: 500px;
+    /*background: green;*/
+}
+.main{
+    background: #ededed;
+}
+/*========================================banner=====================开始*/
+.min-banner {
+    height: 182px;
+    /*background: pink;*/
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+}
+/*==========================================左边的图片====================*/
+.min-banner .min-banner-jbl a{
+    width: 610px;
+    height: 182px;
+    float: left;
+    background: url("../imgs/min-banner-jbl_fc534ac499.png") no-repeat;
+    list-style: none;
+
+}
+/*==========================================右边的图片=======================*/
+.min-banner .min-banner-watch a{
+    width: 610px;
+    height: 182px;
+    background: url("../imgs/min-banner-watch_19572e0775.png") no-repeat;
+    float: right;
+    list-style: none;
+}
+/*========================================banner=====================开始=========*/
+/*================锤子科技动态=======================开始============*/
+/*大盒子============================*/
+.select1{
+    height: 266px;
+    /*background: bisque;*/
+}
+/*=========================文字部分=======================*/
+.select1-top{
+    height: 50px;
+    /*background: yellow;*/
+    /*消除塌陷*/
+    overflow: hidden;
+}
+.select1-top p{
+    font:normal 400 20px "微软雅黑";
+    margin-top:25px ;
+    color: #666666;
+}
+.select1-bottom{
+    width: 1222px;
+    height: 200px;
+    background: white;
+    /*background: greenyellow;*/
+    /*border: 1px solid #DBDBDB ;*/
+    border-radius: 10px;
+    /*box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);*/
+    margin-top: 18px;
+    position: relative;
+    /*===========================设置阴影*/
+
+
+}
+.select1-bottom ul{
+    height: 200px;
+    border: 1px solid #DBDBDB ;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.select1-bottom ul li{
+    height: 200px;
+    float: left;
+    width: 300px;
+    border-right: 1px solid #DBDBDB ;
+    margin-left: 4px;
+}
+.select1-bottom ul li a{
+    height: 200px;
+    float: left;
+    width: 300px;
+    border-right: 1px solid #DBDBDB ;
+}
+/*设置第一个和最后一个圆角
+*/
+.select1-bottom ul .li-radius{
+    border-radius: 10px 0px 0px 10px;
+}
+.select1-bottom ul .li-radius1{
+    border-radius: 0px 10px 10px 0px;
+    border-right:0 ;
+
+}
+.select1-bottom ul li img{
+    width: 300px;
+    height: 200px;
+
+    /*border-radius: 10px 10px;*/
+}
+/*================锤子科技动态=======================结束============*/
+/*=================Smartisan App===================开始=============*/
+.select2{
+    height: 403px;
+    /*background: blanchedalmond;*/
+    position: relative;
+    overflow: hidden;
+}
+.select2 .select2-header{
+    height: 24px;
+    position: relative;
+
+}
+/*上面的标题部分*/
+.select2 .select2-header h5{
+    margin-top: 48px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #666;
+    font-weight: 300;
+    position: relative;
+    display: block;
+
+}
+.select2 .select2-header .more{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.select2 .select2-header .more a{
+    color: #666666;
+    /*list-style: none;*/
+    text-decoration: none;
+}
+/*设置大于号*/
+.select2 .select2-header .more .smartisan-icon{
+    display: inline-block;
+    font-family: SmartisanIconFont;
+    vertical-align: middle;
+}
+.smartisan-icon.gt:before {
+    content: "";
+}
+/*设置下面盒子中的四个图片*/
+
+.select2 .select2-ul{
+    height: 362px;
+    /*background: pink;*/
+    margin-top: 20px;
+    border: 1px solid #DBDBDB ;
+    border-radius: 10px 10px 10px 10px;
+}
+/*设置第一个li标签*/
+.select2 .select2-ul li{
+    height: 360px;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    background: white;
+    list-style: none;
+    border-right: 1px solid #DBDBDB;
+}
+.select2 .select2-ul .select2-li1{
+    height: 360px;
+    line-height: 360px;
+    /*background: pink;*/
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.select2 .select2-ul .select2-li1-icon{
+    height: 90px;
+    width: 90px;
+    background: url("../imgs/app-icon-launcher_ec7d40e15b.png");
+    position: absolute;
+    top:85px;
+    left: 105px;
+}
+/*设置下面的文字*/
+.select2 .select2-ul .select2-li1 .info{
+    height: 51px;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.select2 .select2-ul .select2-li1 .info h6{
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #424242;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select2 .select2-ul .select2-li1 .info span{
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #B2B2B2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+/*设置安卓的小图标*/
+.select2 .select2-ul .select2-li1 .platform{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 100px;
+    left: 0;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li1 .platform .android{
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/icon-android_ef6f740299.png);
+    background-size: 16px auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+/*===========================================设置鼠标进入的时候显示的页面============开始*/
+.select2 .select2-ul .select2-li1 .operation{
+    width: 100%;
+    height: 360px;
+    padding: 4px;
+    /*margin: 64px auto 0;*/
+    box-sizing: border-box;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    display: none;
+    background: pink;
+    z-index: 2;
+    text-align: center;
+    background: white;
+    /*background: #666666;*/
+    /*opacity: 0.5;*/
+    /*=========================================隐藏二维码那个层*/
+}
+.select2 .select2-ul .select2-li1 .operation .ewm-icon{
+    width: 120px;
+    height: 120px;
+    background: url("../imgs/1.png");
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    top:64px;
+    left: 84px;
+}
+.select2 .select2-ul .select2-li1 .operation span{
+    height: 24px;
+    line-height: 48px;
+    display: inline-block;
+    margin-top: 14px;
+    position: absolute;
+    font: normal 400 14px "微软雅黑";
+    top: 200px;
+    left: 70px;
+    color: #666;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li1 .operation a{
+    display:inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font:normal 400 12px "微软雅黑";
+    margin-left:10px;
+
+}
+
+/*===========================================设置鼠标进入的时候显示的页面============结束*/
+/*第二个li标签*/
+.select2 .select2-ul .select2-li2{
+    height: 360px;
+    line-height: 360px;
+    /*background: pink;*/
+    position: relative;
+}
+.select2 .select2-ul .select2-li2-icon{
+    height: 90px;
+    width: 90px;
+    background: url("../imgs/app-icon-handshaker_eea21e0747.png");
+    position: absolute;
+    top:85px;
+    left: 105px;
+}
+/*设置下面的文字*/
+.select2 .select2-ul .select2-li2 .info{
+    height: 51px;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.select2 .select2-ul .select2-li2 .info h6{
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #424242;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select2 .select2-ul .select2-li2 .info span{
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #B2B2B2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+/*设置苹果的小图标*/
+.select2 .select2-ul .select2-li2 .platform{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 100px;
+    left: 0;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li2 .platform .android{
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/icon-ios_2836bd4e36.png);
+    background-size: 16px auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+/*===========================================设置鼠标进入的时候显示的页面============开始*/
+.select2 .select2-ul .select2-li2 .operation{
+    width: 100%;
+    height: 360px;
+    padding: 4px;
+    /*margin: 64px auto 0;*/
+    box-sizing: border-box;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    display: none;
+    background: pink;
+    z-index: 2;
+    text-align: center;
+    background: white;
+    /*=========================================隐藏二维码那个层*/
+}
+.select2 .select2-ul .select2-li2 .operation .select2-download{
+    width: 200px;
+    height: 46px;
+    background: #f9f9f9;
+    border: 1px solid #666666;
+    border-color: #cccccc;
+    position: relative;
+    top: 64px;
+    left: 55px;
+    border-radius:10px 10px ;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li2 .operation .select2-download span{
+    font: normal 400 16px "微软雅黑";
+    color: #666666;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+.select2 .select2-ul .select2-li2 .operation   .select2-li2-center-icon{
+    width: 200px;
+    height: 46px;
+    line-height: 60px;
+    background: #686868;
+    position: absolute;
+    top: 130px;
+    left: 58px;
+    border-radius: 10px 10px;
+    text-align: center;
+    /*background-img: url("../imgs/btn-appstore-handshaker_cdf1da05e9.png");*/
+}
+.select2 .select2-ul .select2-li2 .operation   .select2-li2-center-icon img {
+    height: 30px;
+    width: 113px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+
+}
+.select2 .select2-ul .select2-li2 .operation .span2{
+    height: 24px;
+    line-height: 48px;
+    display: inline-block;
+    margin-top: 14px;
+    position: absolute;
+    font: normal 400 14px "微软雅黑";
+    top: 200px;
+    left: 50px;
+    color: #666;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li2 .operation a{
+    display:inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    font:normal 400 12px "微软雅黑";
+    margin-left:10px;
+    position: absolute;
+    top: 192px;
+    left: 75px;
+
+}
+/*===========================================设置鼠标进入的时候显示的页面============结束*/
+/*第三个li标签*/
+.select2 .select2-ul .select2-li3{
+    height: 360px;
+    line-height: 360px;
+    /*background: pink;*/
+    position: relative;
+}
+.select2 .select2-ul .select2-li3-icon{
+    height: 90px;
+    width: 90px;
+    background: url("../imgs/app-icon-reader_43dd330641.png");
+    position: absolute;
+    top:85px;
+    left: 105px;
+}
+/*设置下面的文字*/
+.select2 .select2-ul .select2-li3 .info{
+    height: 51px;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.select2 .select2-ul .select2-li3 .info h6{
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #424242;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select2 .select2-ul .select2-li3 .info span{
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #B2B2B2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+/*设置安卓的小图标*/
+.select2 .select2-ul .select2-li3 .platform{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 100px;
+    left: 0;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li3 .platform .android{
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/icon-android_ef6f740299.png);
+    background-size: 16px auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+/*===========================================设置鼠标进入的时候显示的页面============开始*/
+.select2 .select2-ul .select2-li3 .operation{
+    width: 100%;
+    height: 360px;
+    padding: 4px;
+    /*margin: 64px auto 0;*/
+    box-sizing: border-box;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    display: none;
+    background: pink;
+    z-index: 2;
+    text-align: center;
+    background: white;
+    /*=========================================隐藏二维码那个层*/
+}
+.select2 .select2-ul .select2-li3 .operation .ewm-icon{
+    width: 120px;
+    height: 120px;
+    background: url("../imgs/1.png");
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    top:64px;
+    left: 84px;
+}
+.select2 .select2-ul .select2-li3 .operation span{
+    height: 24px;
+    line-height: 48px;
+    display: inline-block;
+    margin-top: 14px;
+    position: absolute;
+    font: normal 400 14px "微软雅黑";
+    top: 200px;
+    left: 70px;
+    color: #666;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li3 .operation a{
+    display:inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font:normal 400 12px "微软雅黑";
+    margin-left:10px;
+
+}
+
+/*===========================================设置鼠标进入的时候显示的页面============结束*/
+/*第四个li标签*/
+.select2 .select2-ul .select2-li4{
+    height: 360px;
+    line-height: 360px;
+    /*background: pink;*/
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.select2 .select2-ul .select2-li4-icon{
+    height: 90px;
+    width: 90px;
+    background: url("../imgs/app-icon-notes_402d6321a9.png");
+    position: absolute;
+    top:85px;
+    left: 105px;
+}
+/*设置下面的文字*/
+.select2 .select2-ul .select2-li4 .info{
+    height: 51px;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.select2 .select2-ul .select2-li4 .info h6{
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #424242;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.select2 .select2-ul .select2-li4 .info span{
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #B2B2B2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+/*设置安卓的小图标*/
+.select2 .select2-ul .select2-li4 .platform{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 100px;
+    left: 0;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li4 .platform .android{
+    width: 16px;
+    height: 16px;
+    background-image: url(../imgs/icon-android_ef6f740299.png);
+    background-size: 16px auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+/*===========================================设置鼠标进入的时候显示的页面============开始*/
+.select2 .select2-ul .select2-li4 .operation{
+    width: 100%;
+    height: 360px;
+    padding: 4px;
+    /*margin: 64px auto 0;*/
+    box-sizing: border-box;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    display: none;
+    background: pink;
+    z-index: 2;
+    text-align: center;
+    background: white;
+    /*=========================================隐藏二维码那个层*/
+}
+.select2 .select2-ul .select2-li4 .operation .ewm-icon{
+    width: 120px;
+    height: 120px;
+    background: url("../imgs/1.png");
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    top:64px;
+    left: 84px;
+}
+.select2 .select2-ul .select2-li4 .operation span{
+    height: 24px;
+    line-height: 48px;
+    display: inline-block;
+    margin-top: 14px;
+    position: absolute;
+    font: normal 400 14px "微软雅黑";
+    top: 200px;
+    left: 70px;
+    color: #666;
+    text-align: center;
+}
+.select2 .select2-ul .select2-li4 .operation a{
+    display:inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font:normal 400 12px "微软雅黑";
+    margin-left:10px;
+
+}
+
+/*===========================================设置鼠标进入的时候显示的页面============结束*/
+/*=================Smartisan App===================结束=============*/
+/*========================================================================================开始*/
+.select3{
+    height: 412px;
+    /*background: bisque;*/
+}
+/*=========================文字部分=======================*/
+.select3-top{
+    height: 50px;
+    /*background: yellow;*/
+    /*消除塌陷*/
+    overflow: hidden;
+}
+.select3-top p{
+    font:normal 400 20px "微软雅黑";
+    margin-top:25px ;
+    color: #666666;
+}
+.select3-bottom{
+    width: 100%;
+    height: 362px;
+    float: left;
+    /*background: pink;*/
+    background: white;
+    margin-top: 22px;
+    overflow: hidden;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+}
+/*设置第一个li标签=========================================*/
+.select3-bottom ul{
+    height: 362px;
+}
+.select3-bottom .select3-li1{
+    width: 303px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    border-right: 1px solid #DBDBDB;
+    overflow: hidden;
+    padding: 0px 4px;
+    position: relative;
+}
+.select3-bottom .select3-li1 .select3-top-icon{
+    width: 245px;
+    height: 156px;
+    /*background: url("../imgs/forum-1_eefad1211b@2x.jpg");*/
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+.select3-bottom .select3-li1 .select3-top-icon img{
+    width: 245px;
+    height: 156px;
+}
+.select3-bottom .select3-li1 .select3-center-content h6{
+    font-size: 16px;
+    color: #424242;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 220px;
+    left:30px;
+}
+.select3-bottom .select3-li1 .select3-bottom-content p{
+    font-size: 12px;
+    color: #B2B2B2;
+    line-height: 18px;
+    /*margin-top: 13px;*/
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 278px;
+    left:30px;
+}
+/*设置第二个li标签*/
+.select3-bottom .select3-li2{
+    width: 303px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    position: relative;
+    border-right: 1px solid #DBDBDB;
+
+}
+.select3-bottom .select3-li2 a{
+    width: 303px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    /*position: relative;*/
+
+}
+.select3-bottom .select3-li2 .select3-top-icon{
+    width: 245px;
+    height: 156px;
+    /*background: url("../imgs/forum-2_3158dd4f8f@2x.jpg");*/
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+.select3-bottom .select3-li2 .select3-center-content h6{
+    font-size: 16px;
+    color: #424242;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 220px;
+    left:30px;
+}
+.select3-bottom .select3-li2 .select3-bottom-content p{
+    font-size: 12px;
+    color: #B2B2B2;
+    line-height: 18px;
+    /*margin-top: 13px;*/
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 278px;
+    left:30px;
+}
+/*设置第三个li标签*/
+.select3-bottom .select3-li3{
+    width:303px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    position: relative;
+    border-right: 1px solid #DBDBDB;
+
+
+}
+.select3-bottom .select3-li3 a{
+    width: 303px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    /*position: relative;*/
+
+}
+.select3-bottom .select3-li3 .select3-top-icon{
+    width: 245px;
+    height: 156px;
+    /*background: url("../imgs/forum-3_52c0d264a0@2x.jpg");*/
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+.select3-bottom .select3-li3 .select3-center-content h6{
+    font-size: 16px;
+    color: #424242;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 220px;
+    left:30px;
+}
+.select3-bottom .select3-li3 .select3-bottom-content p{
+    font-size: 12px;
+    color: #B2B2B2;
+    line-height: 18px;
+    /*margin-top: 13px;*/
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 278px;
+    left:30px;
+}
+/*设置第四个li标签*/
+.select3-bottom .select3-li4{
+    width: 300px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    position: relative;
+    /*border-right: 1px solid #DBDBDB;*/
+
+}
+.select3-bottom .select3-li4 a{
+    width: 300px;
+    height: 362px;
+    /*background: green;*/
+    float: left;
+    /*position: relative;*/
+
+}
+
+.select3-bottom .select3-li4 .select3-top-icon{
+    width: 245px;
+    height: 156px;
+    /*background: url("../imgs/forum-4_8b576fc2d6@2x.jpg");*/
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+.select3-bottom .select3-li4 .select3-center-content h6{
+    font-size: 16px;
+    color: #424242;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 220px;
+    left:30px;
+}
+.select3-bottom .select3-li4 .select3-bottom-content p{
+    font-size: 12px;
+    color: #B2B2B2;
+    line-height: 18px;
+    /*margin-top: 13px;*/
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 278px;
+    left:30px;
+}
+/*========================================================================================结束*/
+/*=================设置阴影*/
+.shadow{
+
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=3);/*ie*/
+    -moz-box-shadow: 1px 1px 20px  8px #909090;/*firefox*/
+    -webkit-box-shadow: 1px 1px 20px 8px#909090;/*safari或chrome*/
+    box-shadow:1px 1px 20px 8px #909090;/*opera或ie9*/
+    position: relative;
+}
+.shadow2{
+
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=100,strength=3);/*ie*/
+    -moz-box-shadow: 1px 1px 2px  2px #909090;/*firefox*/
+    -webkit-box-shadow: 1px 1px 2px 2px#909090;/*safari或chrome*/
+    box-shadow:1px 1px 2px 2px #909090;/*opera或ie9*/
+    position: relative;
+}
+.bottom{
+    height: 400px;
+}

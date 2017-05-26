@@ -1,0 +1,204 @@
+
+
+/*Çå³ý¸¡¶¯*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.shopcar{
+    position:absolute;
+    z-index: 10;
+    display: none;
+    top: 60px;
+    right: 315px;
+}
+
+.shopcar .shop{
+    width: 312px;
+    /*height: 255px;*/
+    border-radius: 5px;
+    background-color: white;
+    /*display: none;*/
+    border: 2px solid #F0F0F0;
+    position: absolute;
+    /*position: relative;*/
+}
+.shopcar .shop .box1{
+    height: 120px;
+    border-bottom: 1px solid #F0F0F0;
+    /*float: left;*/
+}
+.shopcar .shop .box2{
+    height: 53px;
+    border-bottom: 1px solid #F0F0F0;
+    /*float: left;*/
+    line-height: 53px;
+    padding:0 20px;
+
+
+}
+.sumNum{
+    color: #868686;
+    font-weight: bold;
+    font-size: 14px;
+}
+.allshop{
+    color: #6D95F3;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    float: right;
+    display: none;
+}
+
+.shopcar .shop .box3{
+    height: 80px;
+    background-color: #FAFAFA;
+    color: #868686;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 20px;
+}
+.sumjiage{
+    color: red;
+    font-size: 20px;
+}
+.shop .box3 .shopbtn{
+    width: 110px;
+    height: 40px;
+    background-color: #6D95F3;
+    border: 1px solid #6283D0;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.hot{
+    padding:4px;
+    /*width: 20px;*/
+    height:15px;
+    /*background-color: #D45555;*/
+    background-color: #969696;
+    border: 1px solid dimgrey;
+    border-radius: 50%;
+    line-height: 15px;
+    position: absolute;
+    left: 1180px;
+    top: 12px;
+    z-index: 4;
+    color: white;
+}
+.triangle{
+    width: 17px;
+    height: 11px;
+    background: url("../images/xiaosanjiao.png")no-repeat 0 0;
+    position: absolute;
+    z-index: 11;
+    top: -7px;
+    left: 225px;
+}
+.pic{
+    width: 81px;
+    height: 81px;
+    border: 1px solid #F0F0F0;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+    /*background: url("../images/a.jpg") no-repeat 0 0;*/
+}
+
+.shopbigbox{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    z-index: 11;
+    display: none;
+}
+.shopmask{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 0, 0.4);
+    /*background-color: red;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+    display: none;
+}
+
+
+.box1 .shopname{
+    width: 150px;
+    display: inline-block;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #616161;
+    font-weight: bold;
+}
+.box1 .jiage{
+    width: 110px;
+    display: inline-block;
+    height: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    float: left;
+    color: #868686;
+    font-weight: bold;
+
+}
+.onejia{
+    color: red;
+    font-size: 16px;
+}
+.onege{
+    font-size: 16px;
+    color: #868686;
+    font-weight: bold;
+}
+
+
+.off{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D5D5D5;
+    background-color: #E0E0E0;
+    color: white;
+    float: right;
+    margin-right: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.button5{
+    float: left;
+    margin-top: 400px;
+}

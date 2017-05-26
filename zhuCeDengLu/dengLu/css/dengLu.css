@@ -1,0 +1,306 @@
+/*大层====开始*/
+.wrapper{
+    width: 1349px;
+    height: 800px;
+    background-image: url("../images/background.png");
+    /*background: url("../images/con-bg.jpg") repeat-x;*/
+    position: absolute;
+
+}
+/*大层====结束*/
+
+/*对话框层====*/
+.dialog{
+    width: 450px;
+    height: 550px;
+    border:1px solid #d8dada;
+    border-radius:10px;
+    background: url("../images/dialog-gray-bg.png") #fdfdfd bottom repeat-x;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -225px;
+    margin-top:-324.5px;
+
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#ccc,direction=120,strength=3);/*ie*/
+    -moz-box-shadow: 1px 1px 20px  8px #ccc;/*firefox*/
+    -webkit-box-shadow: 1px 1px 20px 8px#ccc;/*safari或chrome*/
+    box-shadow:1px 9px 20px 5px #ccc;/*opera或ie9*/
+    position: relative;
+}
+
+/*标题层======开始*/
+.title{
+    height: 167px;
+    margin:23px 0 50px 0;
+    background: url("../images/smartisan.png") 50% 0 no-repeat;
+    position: relative;
+}
+h4{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    font:400 20px "microsoft yahei";
+}
+/*标题层=======结束*/
+
+/*内容层=====================================开始*/
+.content{
+    width: 370px;
+    height: 288px;
+    padding:0 40px 22px;
+}
+/*内容层中上面部分====开始*/
+.common-form{
+    width: 370px;
+    height: 138px;
+    /*background: green;*/
+}
+.username{
+    margin-bottom:15px;
+    opacity:0.62;
+}
+.username .input{
+    height: 46px;
+    line-height: 46px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:18px;
+    position: relative;
+}
+.username .input .icon{
+    width: 46px;
+    height: 46px;
+    border-radius: 6px 0 0 6px;
+    border-right:1px solid #ccc;
+}
+.username .input .icon i{
+    cursor: pointer;
+    display: block;
+    text-indent: -9999em;
+    background:url("../images/dialog-input-icons.png") -1px 0 no-repeat;
+}
+.username .input .placeholder{
+    font-size: 16px;
+    color: #bebebe;
+    position: absolute;
+    left: 62px;
+    top: 0;
+}
+.username .input .usernameWrong{
+    /*width: 100px;*/
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top:13px;
+    border-radius: 5px;
+    font-size:12px;
+    background: #D16D62;
+    display: none;
+}
+.username .input .usernameWrong1{
+    /*width: 100px;*/
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top:13px;
+    border-radius: 5px;
+    font-size:12px;
+    background: #D16D62;
+    display: none;
+}
+.username .input input{
+    width: 270px;
+    height: 36px;
+    outline:none;
+    padding:5px 15px;
+    background: rgba(255,255,255,0);
+    position: relative;
+    z-index:10;
+    color: #333;
+    font-size:16px;
+}
+.password{
+    opacity:.62;
+}
+.password .input{
+    height: 46px;
+    line-height: 46px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:18px;
+    position: relative;
+}
+.password .input .icon{
+    width: 46px;
+    height: 46px;
+    border-radius: 6px 0 0 6px;
+    border-right:1px solid #ccc;
+}
+.password .input .icon i{
+    cursor: pointer;
+    display: block;
+    text-indent: -9999em;
+    background:url("../images/dialog-input-icons.png") -49px 0 no-repeat;
+}
+.password .input .placeholder{
+    font-size: 16px;
+    color: #bebebe;
+    position: absolute;
+    left: 62px;
+    top: 0;
+}
+.password .input .passwordWrong{
+    /*width: 70px;*/
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top:13px;
+    border-radius: 5px;
+    font-size:12px;
+    background: #D16D62;
+    display: none;
+}
+.password .input input{
+    width: 270px;
+    height: 36px;
+    outline:none;
+    padding:5px 15px;
+    background: rgba(255,255,255,0);
+    position: relative;
+    z-index:10;
+    color: #333;
+    font-size:16px;
+}
+.remember{
+    width: 360px;
+    height: 12px;
+    line-height: 12px;
+    margin:15px 5px 25px;
+    position: relative;
+}
+.remember .auto{
+    padding-left:22px;
+    color: #999;
+    font-size:12px;
+    cursor: pointer;
+}
+.remember .auto .checkbox{
+    width: 20px;
+    height: 20px;
+    background: url("../images/checkbox.png") 0 -18px no-repeat;
+    position: absolute;
+    top: -4px;
+    left: -2px;
+}
+.remember .forgotpassword{
+    width: 50px;
+    font-size:12px;
+    margin-right:3px;
+    color: #5079d9;
+    white-space: nowrap;
+}
+.remember .registercloud{
+    font-size:12px;
+    margin-right:8px;
+    color: #5079d9;
+}
+/*内容层中上面部分====结束*/
+
+/*内容层中中间部分====开始*/
+.btn-wrapper{
+
+    height: 48px;
+    margin-top:20px;
+}
+.btn-wrapper .btn{
+    height: 46px;
+    line-height: 46px;
+    padding:1px;
+    border-radius: 6px;
+    background: #6383c6;
+    opacity:.4;
+}
+.btn-wrapper .btn a{
+    display: block;
+    font-size:18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: #4f70b3 0 -1px 0;
+    cursor:default;
+}
+/*内容层中中间部分====结束*/
+
+/*内容层中下面部分====开始*/
+.info-wrapper{
+    margin:30px 0 0;
+    padding-top:23px;
+    border-top: 1px solid #d9d9d9;
+    text-align: center;
+    font-size:12px;
+}
+.info-wrapper .login-three li{
+    float: left;
+    width: 20px;
+    height: 17px;
+    margin-left:15px;
+    background: url("../images/icons.png") no-repeat;
+    cursor: pointer;
+}
+.info-wrapper .login-three .text{
+    margin-left:0;
+    background: none;
+    color: #999;
+    width:auto;
+    cursor: default;
+}
+.info-wrapper .login-three .wechat{
+    margin-left:10px;
+
+}
+.info-wrapper .login-three .weibo{
+    background-position: -30px 0;
+
+}
+.info-wrapper .login-three .qq{
+    background-position: -62px 0;
+}
+.info-wrapper li a{
+    color: #999;
+}
+.info-wrapper li a:hover{
+    color: #5079d9;
+}
+.copyright{
+    position: absolute;
+    bottom:60px;
+    left:50%;
+    margin-left:-314px;
+    font-size:12px;
+    color: #757575;
+}
+.copyright a{
+    color: #5079d9;
+}
+.copyright .jingIcp{
+    margin-left:130px;
+    margin-top:10px;
+    color: #5079d9;
+}
+/*.shadow{*/
+    /*filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=3);!*ie*!*/
+    /*-moz-box-shadow: 1px 1px 20px  8px #909090;!*firefox*!*/
+    /*-webkit-box-shadow: 1px 1px 20px 8px#909090;!*safari或chrome*!*/
+    /*box-shadow:1px 1px 20px 8px #909090;!*opera或ie9*!*/
+    /*position: relative;*/
+/*}*/

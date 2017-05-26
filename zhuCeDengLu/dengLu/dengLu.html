@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--设置最上面的小图标-->
+    <link rel="icon" href="images/favicon.ico" value="image/x-icon">
+    <!--设置外部样式的引用-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/dengLu.css">
+    <script src="jquery-1.11.1.js"></script>
+    <script src="dengLu.js"></script>
+</head>
+<body>
+<!--包括背景在内的层-->
+<div class="wrapper">
+    <!--对话框层-->
+    <div class="dialog">
+        <!--logo和标题所在的层-->
+        <div class="title">
+            <h4>使用 Smartisan ID 登录官网</h4>
+        </div>
+        <!--logl和标题下面的内容层-->
+        <div class="content">
+            <!--文本框内容层-->
+            <ul class="common-form">
+                <li id="username" class="username">
+                    <div class="input">
+                        <span class="icon fl"><i>手机号/邮箱</i></span>
+                        <span class="placeholder fl">手机号/邮箱</span>
+                        <span class="usernameWrong">手机号/邮箱格式错误</span>
+                        <input type="text">
+                        <span class="usernameWrong1">手机号/邮箱不存在</span>
+                    </div>
+                </li>
+                <li id="password" class="password">
+                    <div class="input">
+                        <span class="icon fl"><i>密码</i></span>
+                        <span class="placeholder fl">密码</span>
+                        <span class="passwordWrong">密码错误</span>
+                        <input type="password">
+                    </div>
+                </li>
+                <li id="remember" class="remember">
+                    <div id="auto" class="auto fl">
+                        <span class="checkbox"></span>
+                        7天自动登录
+                    </div>
+                    <a  class="forgotpassword fr" href="">忘记密码？</a>
+                    <a class="registercloud fr" href="../zhuCe/HTML/zhuCe.html">注册Smartisan ID</a>
+
+                </li>
+            </ul>
+            <!--登录按钮层-->
+            <div id="btn-wrapper" class="btn-wrapper">
+                <div id="btn" class="btn">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+            <!--其它账号登录层-->
+            <div class="info-wrapper">
+                <ul>
+                    <!--左侧li-->
+                    <li class="fl">
+                        <ul class="login-three">
+                            <li class="text">其它账号登录：</li>
+                            <li id="wechat" class="wechat"></li>
+                            <li id="weibo" class="weibo"></li>
+                            <li id="qq" class="qq"></li>
+                        </ul>
+                    </li>
+                    <!--右侧li-->
+                    <li class="fr"><a href="javascript:;">国际手机号登录&nbsp;&gt;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--底部版权层-->
+    <div class="copyright">
+        Copyright © 2016,Smartisan Digital Co.,Ltd.All Rights Reserved.北京锤子数码科技有限公司
+        <a href="#">&nbsp;|&nbsp;法律声明</a><a href="#">&nbsp;|&nbsp;隐私条款</a>
+        <div class="jingIcp">
+            <a href="#">京ICP备14041720号-1京ICP证140622号京公网安备11010502025474</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

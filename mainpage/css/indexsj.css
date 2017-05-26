@@ -1,0 +1,293 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*去掉行内替换元素空白缝隙*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    color: #666;
+    background: #fff;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+/*songjia===========================================================开始*/
+/*h1, h2, h3, h4, h5, h6 {*/
+/*text-decoration: none;*/
+/*font-size: 100%;*/
+/*}*/
+/*<!--t恤男款======================开始-->*/
+.wrap{
+    width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #ccc;
+}
+.menshirt li{
+    float: left;
+}
+/*<!--t恤男款======================结束-->*/
+/*热门商品==========================开始*/
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.hotgoods{
+
+}
+.hotgoods img{
+    margin-top: 30px;
+}
+.hotgoods ul li{
+    position: relative;
+    height: 420px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 30px;
+    float: left;
+    text-align: center;
+}
+.hotgoods .description{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.hotgoods li ul{
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    /*left: 50%;*/
+}
+#pfirst{
+    margin-top: 20px;
+}
+.hotgoods li li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.hotgoods .litwo{
+    /*position: relative;*/
+}
+.hotgoods .litwo .inner{
+    height: 260px;
+    width: 253px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.hotgoods .litwo ol{
+    width: 1100px;
+    height: 258px;
+    position: absolute;
+}
+.hotgoods .litwo h2{
+    margin-top: 40px;
+}
+.hotgoods .description{
+    /*margin-top: 300px;*/
+    color: silver;
+}
+.hotgoods .litwo ol img{
+    float: left;
+    padding-left: 20px;
+}
+.hotgoods .first{
+    margin-left: 130px;
+    margin-top: 5px;
+}
+.hotgoods .first li{
+    background-color: #333;
+}
+.hotgoods .two,.three,.last{
+    margin-left: 100px;
+}
+.hotgoods .two .purple{
+    background-color: mediumpurple;
+}
+.hotgoods .two .red{
+    background-color: darkred;
+}
+.hotgoods .two .blue{
+    background-color: cornflowerblue;
+}
+.hotgoods .two .silver{
+    background-color: silver;
+}
+
+.hotgoods .three .black{
+    background-color: #333333;
+}
+.hotgoods .three .red{
+    background-color: darkred;
+}
+.hotgoods .three .blue{
+    background-color: cornflowerblue;
+}
+.hotgoods .three .silver{
+    background-color: silver;
+}
+.hotgoods .last .yellow{
+    background-color: orange;
+}
+.hotgoods .last .red{
+    background-color: darkred;
+}
+.hotgoods .last .green{
+    background-color: green;
+}
+.hotgoods .last .silver{
+    background-color: silver;
+}
+.hotgoods .money a{
+    color: red;
+}
+.hotgoods .buy{
+    width: 170px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -80px;
+    display: none;
+}
+.hotgoods button{
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+}
+.hotgoods .details{
+    border: 1px solid silver;
+    background-color: #fff;
+}
+.hotgoods .car{
+    background-color: cornflowerblue;
+}
+/*热门商品==========================结束*/
+/*选择手机==========================开始*/
+
+.phone-choose li{
+    float: left;
+    width: 242px;
+    position: relative;
+}
+.phone-choose li img{
+    width: 242px;
+}
+.phone-choose div{
+    height: 242px;
+    width: 242px;
+    position: absolute;
+    z-index: 1;
+    opacity: .4;
+    left: 0;
+    top: 0;
+    margin-bottom: 40px;
+}
+.phone-choose .mask1{
+    background-color: orangered;
+}
+.phone-choose .mask2{
+    background-color: hotpink;
+}
+.phone-choose .mask3{
+    background-color: yellowgreen;
+}
+.phone-choose .mask4{
+    background-color: #333;
+}
+.phone-choose .mask5{
+    background-color: silver;
+}
+.phone-choose{
+    margin-bottom: 20px;
+}
+/*跳回楼顶*/
+.arrowTop{
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    bottom:30px;
+    right:40px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+#fly1,#fly2,#fly3,#fly4{
+    position: absolute;
+    z-index: 3;
+    top: -30px;
+    right: 20px;
+    background-color: #cccccc;
+    display: none;
+}
+/*选择手机==========================结束*/
+/*songjia===========================================================结束*/
